@@ -16,10 +16,10 @@ public class JavaApplication1 {
 
         long startTime = System.nanoTime();
 
-        int num = 2466;
+        int num = 6;
         int cont = 0;
         int mod;
-        for (int i = 1; i < num; i++) {
+        for (int i = 1; i < num/2; i++) {
 
             mod = num % i;
 
